@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: webapp-config
-data:
-  ConnectionStrings__DefaultConnection: "User ID=admin;Password=admin123;Server=postgres;Port=5432;Database=postgresdb;Integrated Security=true;Pooling=true;"
